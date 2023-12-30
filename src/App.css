@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  
+  background-image: url("stormy-clouds_1122-3014.jpg");
+  background-size: cover;
+  height: 550px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
+  
   color: white;
+  text-shadow: 10px 10px 5px black;
+  padding-left: 300px;
+  
+ 
 }
-
-.App-link {
-  color: #61dafb;
+.nav-bar{
+  background-color: rgb(82, 78, 78);
+  height: 130px;
+  display: flex;
+  box-shadow: 10px 10px  8px black;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width:150px;
+  height: 120px;
+  margin-left: 30px;
+  background-image: url("cloudlogo.png");
+  background-size: cover;
+}
+input{
+  height: 40px;
+  width: 290px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px;
+}
+button{
+  height: 40px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  background-color: gray;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+button:hover{
+  background-color: black;
+}
+p{
+  font-size: xx-large;
+  padding: 50px;
+}
+.result{
+  /* float: right; */
+  /* width:200px;
+  height:200px;
+   */
+  color: white;
+  text-shadow: 10px 10px 5px black;
+  padding: 10px;
+  font-size: xx-large;
 }
